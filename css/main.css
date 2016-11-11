@@ -39,11 +39,17 @@
   .offset-ten { margin-left: 86.6666666667%; }
   .offset-eleven { margin-left: 95.3333333333%; }
 }
-
-
 /*
   Container
   Header -- Jumbotron style
   Table
   Card
 */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
