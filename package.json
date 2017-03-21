@@ -1,0 +1,22 @@
+{
+  "name": "matts-super-awesome-stylesheet",
+  "version": "0.0.1",
+  "description": "My stylesheet I use / will you for future projects and work sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattlaguardia/matts-super-awesome-stylesheet.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattlaguardia/matts-super-awesome-stylesheet/issues"
+  },
+  "homepage": "https://github.com/mattlaguardia/matts-super-awesome-stylesheet#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
