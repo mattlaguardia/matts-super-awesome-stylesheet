@@ -9,5 +9,5 @@ gulp.task('default', function() {
 gulp.task('minify-css', function() {
   return gulp.src('css/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('minified'));
 });
