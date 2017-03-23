@@ -11,3 +11,10 @@ gulp.task('minify-css', function() {
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('minified'));
 });
+
+gulp.task('watch', function() {
+  // watch scss files
+  gulp.watch('./sass/*.scss', function() {
+    gulp.run('sass');
+  });
+});
