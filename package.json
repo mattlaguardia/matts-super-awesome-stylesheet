@@ -16,7 +16,12 @@
     "url": "https://github.com/mattlaguardia/matts-super-awesome-stylesheet/issues"
   },
   "homepage": "https://github.com/mattlaguardia/matts-super-awesome-stylesheet#readme",
-  "dependencies": {
-    "gulp": "^3.9.1"
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-util": "^3.0.8"
   }
 }
